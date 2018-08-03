@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.CheckBox?>
+	
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="it.polito.teaching.cv.FaceDetectionController">
+	<center>
+		<VBox alignment="CENTER">
+			<padding>
+				<Insets right="10" left="10" />
+			</padding>
+			<ImageView fx:id="originalFrame" />
+		</VBox>
+	</center>
+</BorderPane>
